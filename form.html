@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM </title>
+</head>
+<body>
+        <form action="">
+
+            <fieldset>
+                <legend>Name & Address</legend>
+                    <label for="crm">Do you use DiviCRM?</label>
+                    <input type="radio" name="crm">Yes
+                    <input type="radio" name="crm">No
+                    <BR></BR>
+                    <label for="Civi">How long have you been using DiviCRM?</label>
+                    <select name="civi" id="civi">
+                        <option value="crm1" selected>-Select-</option>
+                        <option value="crm1">CRM1</option>
+                        <option value="crm2">CRM2</option>
+                        <option value="crm3">CRM3</option>
+                    </select>
+                    <br>
+            
+                    <label for="CiviCRM">Which CRM do you use?</label>
+                    <select name="civiCRM" id="civiCRM">
+                        <option value="crm1" selected>-Select-</option>
+                        <option value="crm1">CRM1</option>
+                        <option value="crm2">CRM2</option>
+                        <option value="crm3">CRM3</option>
+                    </select>
+                    <br>
+            
+                    <label for="CiviCRM">Your Skill Set</label>
+                    <select name="skill" id="skill">
+                        <option value="sk1" selected>-Select-</option>
+                        <option value="sk2">SK2</option>
+                        <option value="sk3">SK3</option>
+                        <option value="sk4">SK4</option>
+                    </select>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="Email" id="email" name="email">
+                    <br>
+
+                    <label for="1stname">First Name</label>
+                    <input type="text" name="1stname" id="1stname">
+                    <br>
+                    <label for="lstname">Last Name</label>
+                    <input type="text" name="lstname" id="lstname">
+                    <br>
+                    first & Last Name will be shared with other visitors to the site.
+                    <br>
+                    <label for="streetname">Steet Adress (Home)</label>
+                    <input type="text" name="streename" id="streetname">
+                    <br>
+                    <label for="city">City(Home)</label>
+                    <input type="text" name="city" id="city">
+                    <br>
+                    <label for="postal">Postal(Home)</label>
+                    <input type="text" name="postal" id="postal">
+                    <br>
+                    <label for="country">Country (Home)</label>
+                    <select name="country" id="country">
+                        <option value="country1" selected>-United States-</option>
+                        <option value="country2">Pakistan</option>
+                        <option value="country3">Iran</option>
+                        <option value="country4">Iraq</option>
+                    </select>
+                    <br>
+                    Your State/province and Country of Residence will be shared with others to folk can find other in their community.
+                    <br>
+                    <label for="state">State (Home)</label>
+                    <select name="state" id="state">
+                        <option value="state1" selected>-Select-</option>
+                        <option value="state2">Sindh</option>
+                        <option value="state3">Punjab</option>
+                        <option value="state4">Balochstan</option>
+                        <option value="state4">KPK</option>
+                    </select>
+            </fieldset>
+            <br>
+            <input type="button" name="Save" id="save" value="save">
+            <input type="button" name="Cancel" id="Cancel" value="Cancel">
+        </form>
+</body>
+</html>
